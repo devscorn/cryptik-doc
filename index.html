@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<title>Documentation--Cryptik React Nextjs Gatsby App Landing Documentation</title>
+	<meta name="description" content="">
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- <link rel="shortcut icon" href="img/favicon.png"> -->
+
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet'>
+
+	<!-- Syntax Highlighter -->
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shCore.css" media="all">
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shThemeDefault.css" media="all">
+
+	<!-- Font Awesome CSS-->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- Normalize/Reset CSS-->
+	<link rel="stylesheet" href="css/normalize.min.css">
+	<!-- Main CSS-->
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body id="welcome">
+
+	<aside class="left-sidebar">
+		<div class="logo">
+			<a href="#welcome">
+				<img src="img/logo.png" alt="">
+			</a>
+		</div>
+		<nav class="left-nav">
+			<ul id="nav">
+				<li class="current"><a href="#welcome">Welcome</a></li>
+				<li><a href="#template-inside">Template Inside</a></li>
+				<li><a href="#deployment">Deployment</a></li>
+				<li><a href="#stack-use">Stack We Used</a></li>
+				<li><a href="#credit">Source and Credit</a></li>
+			</ul>
+		</nav>
+	</aside>
+
+	<div id="main-wrapper">
+		<div class="main-content">
+			<section id="welcome">
+				<div class="content-header main">
+					<h1>ICO Cryptik - Crypto Currency & ICO React landing Page</h1>
+				</div>
+				<div class="welcome">
+					<h2 class="twenty">Welcome To ICO Cryptik - Crypto Currency & ICO React landing Template</h2>
+					<p>Thanks for purchasing this theme, your support is truly appreciated!</p>
+					<p>This document covers the installation and use of this theme and often reveals answers to common
+						problems and issues - read this document thoroughly if you are experiencing any difficulties. If
+						you have any questions that are beyond the scope of this document, feel free to email at
+						<code><a href="mailto:devscorn@gmail.com">devscorn@gmail.com</a></code> Thank you so much!</p>
+				</div>
+				<div class="features">
+					<h2 class="twenty">Template Features</h2>
+					<ul>
+						<li>Available in Nextjs &amp; Gatsbyjs version</li>
+						<li>Based on styled components</li>
+						<li>Individual theming options</li>
+						<li>Individual style loding for making page load superfast</li>
+						<li>Reusable components for highly customization</li>
+						<li>Clean &amp; Simple Design</li>
+						<li>Nextjs &amp; Gatsbyjs for SSR(server side rendaring) support</li>
+						<li>No CSS or SCSS file</li>
+						<li>Fully Responsive Design</li>
+						<li>Cross Browser Compatible with IE11+, Firefox, Safari, Opera, Chrome</li>
+					</ul>
+				</div>
+				<code class="mr-b-30">Every image or media size should under 1MB</code>
+			</section>
+			<section class="content-header">
+				<h1>What Inside of Cryptik &amp; How to configure</h1>
+			</section>
+			<section id="template-inside">
+				<h2 class="title">How to configure &amp; Install Packages</h2>
+				<p>
+					When you get Cryptik.zip file form Themeforest first needt to unzip the file you will find two folder, <br/>
+					one folder contain Cryptik-Nextjs version and other file contain Cryptik-Gatsby version.
+				</p>
+				<h3 class="sub-title">
+					Cryptik run in <a href="https://nextjs.org/" class="next" target="_blank"> Next.js </a>server
+				</h3>
+				<ol>
+					<li>First go-to in next-landing folder</li>
+					<li>run  <code> yarn install</code> on next-landing</li>
+					<li>run <code> yarn dev</code> on next-landing</li>
+				</ol>
+				<p class="content-list">
+					Then , please go to address localhost:3000 on your browser and You will find default landing
+					page.<br />Similarly <br />
+					localhost:3000/ for Default Home Page </br>
+					localhost:3000/home-two for Home-two Page </br>
+					localhost:3000/home-three for Home-three Page </br>
+					localhost:3000/blog-grid for Blog-Grid Page </br>
+					localhost:3000/blog-list for Blog-List Page </br>
+					localhost:3000/blog-full for Blog-Full Page </br>
+					localhost:3000/blog-single for Blog-Single Page </br>
+				</p>
+
+				<h3 class="sub-title">
+					Cryptik run in <a href="https://www.gatsbyjs.org/" class="gatsby" target="_blank"> Gatsby.js
+					</a>server
+				</h3>
+				<ol>
+					<li>First go-to in gatsby-landing folder</li>
+					<li>run <code> yarn install</code> on gatsby-landing folder</li>
+					<li>run <code> yarn dev</code> on gatsby-landing folder</li>
+				</ol>
+				<p class="content-list">
+					Then , please go to address localhost:8000 on your browser and You will find default landing
+					page.<br />Similarly <br />
+					localhost:8000/ for Default Home Page </br>
+					localhost:8000/home-two for Home-two Page </br>
+					localhost:8000/home-three for Home-three Page </br>
+					localhost:8000/blog-grid for Blog-Grid Page </br>
+					localhost:8000/blog-list for Blog-List Page </br>
+					localhost:8000/blog-full for Blog-Full Page </br>
+					localhost:8000/blog-single for Blog-Single Page </br>
+				</p>
+				<h3 class="sub-title">
+					next-landing folder Structure
+				</h3>
+				<p>
+					After entering next-landing folder, You will find some other
+					folders.
+				</p>
+				<ol>
+					<li>pages</li>
+					<li>src</li>
+				</ol>
+				<h4 class="mini-sub-title styled-text">
+					In src folder
+				</h4>
+				<div class="p-l-20">
+					<p>
+						After entering to next-landing/src folder, You
+						will find:
+					</p>
+					<ol>
+						<li>assets</li>
+						<li>components</li>
+						<li>reusecore</li>
+						<li>sections</li>
+					</ol>
+					<p>Now, we will discuss about each and every folders and their tasks .</p>
+					<h4 class="mini-sub-title">
+						assets
+					</h4>
+					<p>
+						In assets folder, you will find the data, images and theme folder. In data folder, you will find all of data 
+						uses in this template. You will also find the image folder, where all of the images are
+						kept on the basis of the specific page. In theme folder, you will find all of themeing uses in this template. 
+					</p>
+					<h4 class="mini-sub-title">
+						components
+					</h4>
+					<p>
+						Here all the Components we use in Cryptik.
+					</p>
+					<h4 class="mini-sub-title">
+						reusecore
+					</h4>
+					<p class="content-list">
+						reusecore folder is most importantly use, you will find some basic components like Layout,
+						Button, Counter, Navigation etc.
+						We have written these components to make the developer's life easy. Here in details: <br />
+						<span>Accordion</span> -> By this you can make any Accordion with your own style <br />
+						<span>Alert</span> -> By this you can make any Alert with your own style <br />
+						<span>Button</span> -> By this you can make any Button with your own style <br />
+						<span>Box </span> -> By this you can align any area of block with your own style <br />
+						<span>Counter</span> -> By this you can make any Counter with your own style <br />
+						<span>Layout</span> -> Here in Layout all grid system are included<br />
+						<span>PageHeader</span> -> By this you can make BreadCrumb with your own style<br />
+						<span>SectionTitle</span> -> By this you can make any SectionTitle with your own style in
+						template<br />
+						<span>SlickSlider</span> -> By this you can make any slider with your own style in
+						template<br />
+						By using these basic components, you can write custom components according to your need.
+					</p>
+					<h4 class="mini-sub-title">
+						sections
+					</h4>
+					<p>
+						Here all the section include that’s we are used in our template like banner, about, features,
+						news, wallet, Fund, FAQ etc etc for <code>nextjs</code> version.
+					</p>
+				</div>
+				<h4 class="mini-sub-title styled-text">
+					In pages folder
+				</h4>
+				<div class="p-l-20">
+					<p>
+						In this folder , you will find the pages folder of next js and next configuration files.
+						If you want to change something in next js folder , change here .
+					</p>
+					<h4 class="mini-sub-title">
+						pages
+					</h4>
+					<p>
+						As we have used next.js , we have a script to your package.json like this:
+					</p>
+					<pre class="brush: html">
+						{
+						  "scripts": {
+							"dev": "next dev",
+							"start": "next start",
+							"now-build": "next build && next export -o dist",
+							"firebase-dev": "npm run dev:client & npm run dev:server",
+							"firebase-dev:client": "next src/client",
+							"firebase-dev:server": "babel src/server --out-dir dist/server --source-maps --watch",
+							"firebase-build:client": "next build src/client",
+							"firebase-build:server": "babel src/server --out-dir dist/server --source-maps",
+							"firebase-build": "npm run build:client && npm run build:server",
+							"firebase-preserve": "npm run build",
+							"firebase-serve": "cross-env NODE_ENV=production firebase serve --only functions,hosting",
+							"firebase-predeploy": "rimraf dist/ && npm run build",
+							"firebase-deploy": "cross-env NODE_ENV=production firebase deploy --only functions,hosting"
+						  }
+						}
+					</pre>
+					<p class="content-list">
+						After that, the file-system is the main API. Every .js file becomes a route that gets
+						automatically processed and rendered.<br />
+
+						Please have a look at this link <a target="_blank"
+							href="https://nextjs.org/docs/">https://nextjs.org/docs/ </a> for a quick look. You will
+						understand the basic things so quickly.<br />
+
+						As we have Three landing pages and three blog pages named index, classic, modern, blog-grid,
+						blog-list, blog-single so we have seven js files named:
+						<span>index.js</span> for Default Home Page. <br />
+						<span>home-two.js </span> for Home-Two Page. <br />
+						<span>home-three.js</span> for Home Three Page. <br />
+						<span>home-four.js</span> for Home Four Page. <br />
+						<span>blog-grid.js</span> for Blog Grid Page. <br />
+						<span>blog-list.js</span> for Blog List Page. <br />
+						<span>blog-single</span> for Blog-Single Page .<br />
+					</p>
+				</div>
+				<h3 class="sub-title">
+					gatsby-landing folder structure
+				</h3>
+				<p>
+					After entering gatsby-landing folder, You will find some other
+					folders.
+				</p>
+				<ol>
+					<li>src</li>
+				</ol>
+				<h4 class="mini-sub-title styled-text">
+					In src folder
+				</h4>
+				<div class="p-l-20">
+					<p>
+						After entering to gatsby-landing/src folder, You
+						will find:
+					</p>
+					<ol>
+						<li>assets</li>
+						<li>components</li>
+						<li>pages</li>
+						<li>reusecore</li>
+						<li>sections</li>
+					</ol>
+					<p>Now, we will discuss about each and every folders and their tasks .</p>
+					<h4 class="mini-sub-title">
+						assets
+					</h4>
+					<p>
+						In assets folder, you will find the data, images and theme folder. In data folder, you will find all of data 
+						uses in this template. You will also find the image folder, where all of the images are
+						kept on the basis of the specific page. In theme folder, you will find all of themeing uses in this template. 
+					</p>
+					<h4 class="mini-sub-title">
+						components
+					</h4>
+					<p>
+						Here all the Components we use in Cryptik.
+					</p>
+					<h4 class="mini-sub-title">
+						pages
+					</h4>
+					<div class="p-l-20">
+						<p>
+							In this folder , you will find the pages folder of next js and next configuration files.
+							If you want to change something in next js folder , change here .
+						</p>
+						<h4 class="mini-sub-title">
+							pages
+						</h4>
+						<p>
+							As we have used next.js , we have a script to your package.json like this:
+						</p>
+						<pre class="brush: html">
+							"scripts": {
+								"build": "gatsby build",
+								"develop": "gatsby develop",
+								"format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+								"dev": "npm run develop",
+								"serve": "gatsby serve",
+								"clean": "gatsby clean",
+								"test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+							}
+						</pre>
+						<p class="content-list">
+							After that, the file-system is the main API. Every .js file becomes a route that gets
+							automatically processed and rendered.<br />
+	
+							Please have a look at this link <a target="_blank"
+								href="https://nextjs.org/docs/">https://nextjs.org/docs/ </a> for a quick look. You will
+							understand the basic things so quickly.<br />
+	
+							As we have Three landing pages and three blog pages named index, classic, modern, blog-grid,
+							blog-list, blog-single so we have seven js files named:
+							<span>index.js</span> for Default Home Page. <br />
+							<span>home-two.js </span> for Home-Two Page. <br />
+							<span>home-three.js</span> for Home Three Page. <br />
+							<span>home-four.js</span> for Home Four Page. <br />
+							<span>blog-grid.js</span> for Blog Grid Page. <br />
+							<span>blog-list.js</span> for Blog List Page. <br />
+							<span>blog-single</span> for Blog-Single Page .<br />
+						</p>
+					</div>
+					<p>
+						Here all the Components we use in Cryptik.
+					</p>
+					<h4 class="mini-sub-title">
+						reusecore
+					</h4>
+					<p class="content-list">
+						reusecore folder is most importantly use, you will find some basic components like Layout,
+						Button, Counter, Navigation etc.
+						We have written these components to make the developer's life easy. Here in details: <br />
+						<span>Accordion</span> -> By this you can make any Accordion with your own style <br />
+						<span>Alert</span> -> By this you can make any Alert with your own style <br />
+						<span>Button</span> -> By this you can make any Button with your own style <br />
+						<span>Box </span> -> By this you can align any area of block with your own style <br />
+						<span>Counter</span> -> By this you can make any Counter with your own style <br />
+						<span>Layout</span> -> Here in Layout all grid system are included<br />
+						<span>PageHeader</span> -> By this you can make BreadCrumb with your own style<br />
+						<span>SectionTitle</span> -> By this you can make any SectionTitle with your own style in
+						template<br />
+						<span>SlickSlider</span> -> By this you can make any slider with your own style in
+						template<br />
+						By using these basic components, you can write custom components according to your need.
+					</p>
+					<h4 class="mini-sub-title">
+						sections
+					</h4>
+					<p>
+						Here all the section include that’s we are used in our template like banner, about, features,
+						news, wallet, Fund, FAQ etc etc for <code>nextjs</code> version.
+					</p>
+				</div>
+			</section>
+			<section id="deployment">
+				<h3 class="sub-title">
+					Cryptik deployment process
+				</h3>
+				<div class="p-l-20">
+					<h4 class="mini-sub-title">
+						Gatsby Cloud Deployment for Gatsbay
+					</h4>
+					<ol>
+						<li>Upload your project into github/gitlab or bit bucket. Make this project private or public whatever you want.</li>
+						<li> <a href="https://www.gatsbyjs.com/get-started/" target="_blank">Go to gatsby cloud</a></li>
+						<li>Choose i already have a site and get start </li>
+						<li>Fillout the all available options</li>
+						<li>Select your project repository from github/gitlab</li>
+						<li>You may skip Integrations</li>
+						<li>Then press create site</li>
+					</ol>
+				</div>
+				<div class="p-l-20">
+					<h3 class="mini-sub-title">
+						Vercel Deployment for Nextjs
+					</h3>
+
+					<ol>
+						<h4>Install the Vercel CLI</h4>  
+							
+						<li>  
+							<code>npm i -g vercel</code> 
+						</li>  
+						<li>  
+							<code>vercel --prod</code>
+						</li>  
+					</ol>
+				</div>
+				<div class="p-l-20">  
+				<!-- nextjs in firebase function -->
+				<h3 class="mini-sub-title">
+					Firebase Deployment for Nextjs
+				</h3>
+				<ol>
+					<li>
+						Init firebasebase and create firbase project into project folder 
+					</li>
+					<li>
+						Before we go next delete <code>public/index.html</code>
+					</li>
+					<li>
+						Open <strong> .babelrc </strong> file in editor and replace this code to 
+						<strong> module-resolver </strong> alias
+
+						<code>
+							"alias": {
+								"assets": "./src/client/assets",
+								"components": "./src/client/components",
+								"sections": "./src/client/sections",
+								"reusecore": "./src/client/reusecore"
+							  }
+					  
+						</code>
+					</li>
+					<li>
+						Open <starong>firebase.json</starong> then replace with this code 
+						<code>
+							{
+								"hosting": {
+								  "public": "public",
+								  "rewrites": [
+									{
+									  "source": "**/**",
+									  "function": "nextjs-server"
+									}
+								  ]
+								},
+							  
+								"functions": {
+								  "source": ".",
+								  "ignore": [
+									".firebase/**",
+									".firebaserc",
+									"firebase.json",
+									"**/node_modules/**",
+									"**/public/**"
+								  ]
+								  
+								}
+							  }
+						</code>
+					</li>
+					<li>
+						install 
+						<code>yarn add firebase-admin firebase-functions</code>
+						<code>yarn add @babel/core @babel/cli @babel/preset-env cross-env rimraf -dev</code>
+					</li>
+					<li>
+						Open <strong>package.json</strong> and this code 
+						<code>
+							"main": "dist/server/index.js",
+							"engines": {
+								"node": "10"
+							}
+						</code> 
+						<blockquote>
+							if you face engine related issues then 
+							run <code>yarn config set ignore-engines true</code>
+						</blockquote>
+					</li>
+					<li>
+						Create two <strong>client</strong> and <strong>server</strong> folder into <strong>src/ </strong>
+					</li>
+					<li>
+						select > pages, > assets, > components, > reusecore, > sections and move into <strong> client folder </strong>
+					</li>
+					<li>
+						add <strong>.babelrc</strong>, <strong>index.js</strong> into src/server/
+					</li>
+					<li>
+						open <strong>.babelrc</strong> in editor and add this code 
+						<code>
+							{
+								"presets": [
+								  [
+									"@babel/preset-env",
+									{
+									  "targets": {
+										"node": "10.15.3"
+									  }
+									}
+								  ]
+								]
+							  }
+						</code>
+					</li>
+					<li>
+						open <strong>index.js</strong> in editor and add this code 
+						<div class="code">
+							<code>
+								import * as admin from "firebase-admin";
+								import * as functions from "firebase-functions";
+								import next from "next";
+
+								admin.initializeApp();
+
+								const dev = process.env.NODE_ENV !== "production";
+								const app = next({
+								dev,
+								// the absolute directory from the package.json file that initialises this module
+								// IE: the absolute path from the root of the Cloud Function
+								conf: { distDir: "dist/client" },
+								});
+								const handle = app.getRequestHandler();
+
+								const server = functions.https.onRequest((request, response) => {
+								// log the page.js file or resource being requested
+								console.log("File: " + request.originalUrl);
+								return app.prepare().then(() => handle(request, response));
+								});
+
+								const nextjs = {
+								server,
+								};
+							</code>
+						</div>
+					</li>
+
+					<li>
+						Finally run
+						<code>firebase-build</code>
+						<code>firebase-preserve</code>
+						<code>firebase-serve</code>
+						<code>yarn firebase-predeploy</code>  
+						<code>yarn firebase-deploy</code>  
+					</li>
+				</ol>
+				<!-- nextjs in firebase end--> 
+				</div>
+			</section>
+			<section id="stack-use">
+				<h3 class="sub-title">
+					Stack We Used in Cryptik
+				</h3>
+				<ol>
+					<li>Yarn Workspace.</li>
+					<li>React Js.</li>
+					<li>Next Js.</li>
+					<li>Gatsby Js.</li>
+					<li>Styled Components.</li>
+				</ol>
+			</section>
+			<section id="credit">
+				<h2 class="title">Source and Credit</h2>
+				<div class="script-source">
+					<ul>
+						<li><a target="_blank" href="https://reactjs.org/">Reactjs</a></li>
+						<li><a target="_blank" href="https://nextjs.org/">Nextjs</a></li>
+						<li><a target="_blank" href="https://www.gatsbyjs.org/">Gatsbyjs</a></li>
+						<li><a target="_blank" href="https://styled-components.com/">Styled-components</a></li>
+						<li><a target="_blank" href="https://react-slick.neostack.com/">React-slick</a></li>
+						<li><a target="_blank" href="https://about.gitlab.com/">Gitlab</a></li>
+						<li><a target="_blank" href="https://www.freepik.com/">Freepik</a></li>
+						<li><a target="_blank" href="https://www.flaticon.com/">Flaticon</a></li>
+						<li><a target="_blank" href="https://unsplash.com/">Unsplash</a></li>
+						<li><a target="_blank" href="https://icons8.com/ouch/">Ouch</a></li>
+					</ul>
+				</div>
+			</section>
+			<footer>
+				Contact @ <a href="mailto:devscorn@gmail.com" target="_top">devscorn</a> / Skype: devscorn@gmail.com 
+			</footer>
+		</div>
+	</div>
+
+
+	<!-- Essential JavaScript Libraries
+	==============================================-->
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.nav.js"></script>
+	<script type="text/javascript" src="syntax-highlighter/scripts/shCore.js"></script>
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushXml.js"></script>
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushCss.js"></script>
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushJScript.js"></script>
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushPhp.js"></script>
+	<script type="text/javascript">
+		SyntaxHighlighter.all()
+	</script>
+	<script type="text/javascript" src="js/custom.js"></script>
+
+</body>
+
+</html>
